@@ -467,8 +467,8 @@ export default function Home() {
               <div style={{ position: "absolute", top: 20, right: 20, background: "rgba(255,255,255,0.2)", borderRadius: 20, padding: "4px 12px", fontSize: 11, fontWeight: 700, color: "#fff" }}>
                 MOST POPULAR
               </div>
-              <div style={{ fontSize: 13, fontWeight: 700, color: "rgba(255,255,255,0.75)", letterSpacing: 1, textTransform: "uppercase", marginBottom: 12 }}>Team</div>
-              <div style={{ fontSize: 13, color: "rgba(255,255,255,0.75)", marginBottom: 24 }}>For GTM teams, sales orgs, and company + founder combos (min. 3 members)</div>
+              <div style={{ fontSize: 13, fontWeight: 700, color: "rgba(255,255,255,0.75)", letterSpacing: 1, textTransform: "uppercase", marginBottom: 12 }}>Team · Min 3 profiles</div>
+              <div style={{ fontSize: 13, color: "rgba(255,255,255,0.75)", marginBottom: 24 }}>For GTM teams, sales orgs, and company + founder combos · Minimum 3 profiles · Priced for 3</div>
 
               <div style={{ display: "flex", gap: 32, marginBottom: 28 }}>
                 <div>
@@ -484,7 +484,7 @@ export default function Home() {
 
               <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 28 }}>
                 {[
-                  "Up to 5 profiles (LinkedIn + X each)",
+                  "3 profiles included (LinkedIn + X each)",
                   "Unlimited generation across all profiles",
                   "Team brand voice + individual voice calibration",
                   "Full onboarding workshop (2 hrs)",
@@ -506,7 +506,7 @@ export default function Home() {
           </div>
 
           <p style={{ color: "#94A3B8", fontSize: 13, textAlign: "center", marginTop: 24 }}>
-            3-month minimum · Cancel after that, no questions asked · All prices in INR · GST applicable
+            3-month minimum · Team plan: ₹9,999 setup + ₹6,000/month for 3 profiles · Additional profiles on request · All prices in INR · GST applicable
           </p>
         </div>
       </section>
