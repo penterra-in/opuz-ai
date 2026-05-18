@@ -32,15 +32,15 @@ export default function Home() {
       {/* ── Hero ── */}
       <section style={{ maxWidth: 1140, margin: "0 auto", padding: "88px clamp(20px,5vw,60px) 72px", textAlign: "center" }}>
         <div style={{ display: "inline-flex", alignItems: "center", gap: 8, background: LIGHT_BLUE, color: B, fontSize: 13, fontWeight: 600, padding: "6px 16px", borderRadius: 20, marginBottom: 28, border: `1px solid ${B}25` }}>
-          <span>✦</span> All-in-one AI content system · LinkedIn + X
+          <span>✦</span> AI content system for thought leaders · LinkedIn + X
         </div>
         <h1 style={{ fontSize: "clamp(38px, 5.5vw, 72px)", fontWeight: 900, lineHeight: 1.08, marginBottom: 28, letterSpacing: -2, maxWidth: 900, margin: "0 auto 28px" }}>
           Build your audience.<br />
           <span style={{ color: B }}>Sound like yourself.</span><br />
           <span style={{ color: "#94A3B8", fontSize: "0.75em", fontWeight: 700 }}>Without the hours.</span>
         </h1>
-        <p style={{ fontSize: "clamp(17px, 2vw, 21px)", color: BODY, maxWidth: 660, margin: "0 auto 44px", lineHeight: 1.75 }}>
-          Opuz AI turns your thoughts into high-quality LinkedIn posts, X threads, and branded carousels — in your voice — in minutes. Built for founders, CXOs, GTM leaders, and sales teams who want inbound leads without a content team.
+        <p style={{ fontSize: "clamp(17px, 2vw, 21px)", color: BODY, maxWidth: 700, margin: "0 auto 44px", lineHeight: 1.75 }}>
+          Opuz AI helps founders, CXOs, and GTM teams share their journey, insights, and ideas consistently — across LinkedIn and X — so they become credible voices in their industry, stand out from the crowd, and attract organic inbound DMs from prospects. All in a fraction of the time it takes today.
         </p>
         <div style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
           <a href="#contact" style={{ padding: "15px 36px", borderRadius: 10, background: B, color: "#fff", fontSize: 16, fontWeight: 700, textDecoration: "none", boxShadow: `0 6px 24px ${B}45` }}>
@@ -88,7 +88,7 @@ export default function Home() {
               <div style={{ fontSize: 28, marginBottom: 16 }}>💡</div>
               <div style={{ color: "#fff", fontWeight: 700, fontSize: 15, marginBottom: 12 }}>Your raw thought</div>
               <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-                {['"AEs need LinkedIn presence"', '"Our Q1 pipeline was 30% content-driven"', '"Just got off a call and noticed..."'].map((t) => (
+                {['"Here\'s what I learnt closing our Series A..."', '"We shipped a feature our users asked for — story time"', '"Talked to 10 prospects this week. Here\'s the pattern..."'].map((t) => (
                   <div key={t} style={{ background: "rgba(255,255,255,0.07)", borderRadius: 8, padding: "8px 10px", fontSize: 11, color: "#94A3B8", fontStyle: "italic" }}>{t}</div>
                 ))}
               </div>
@@ -147,32 +147,32 @@ export default function Home() {
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: 56 }}>
             <div style={{ fontSize: 12, fontWeight: 700, color: B, letterSpacing: 2, textTransform: "uppercase", marginBottom: 14 }}>Who it&apos;s for</div>
-            <h2 style={{ fontSize: "clamp(28px,4vw,44px)", fontWeight: 800, lineHeight: 1.2, marginBottom: 16 }}>Built for people who drive revenue</h2>
-            <p style={{ color: BODY, fontSize: 17, maxWidth: 540, margin: "0 auto" }}>
-              If your personal brand on LinkedIn or X is tied to pipeline, Opuz AI is your unfair advantage.
+            <h2 style={{ fontSize: "clamp(28px,4vw,44px)", fontWeight: 800, lineHeight: 1.2, marginBottom: 16 }}>Built for everyone who wants to be heard</h2>
+            <p style={{ color: BODY, fontSize: 17, maxWidth: 580, margin: "0 auto" }}>
+              Your journey, ideas, and expertise are worth sharing. Opuz AI makes it effortless to show up consistently — so your audience grows, your credibility compounds, and prospects find you before you find them.
             </p>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 20 }}>
             {[
               {
                 icon: "🚀", title: "Founders & CEOs",
-                body: "You have the insights. Opuz AI turns them into consistent thought leadership that attracts investors, customers, and top talent — without you spending 4 hours a week writing.",
-                outcomes: ["Inbound customer DMs", "Media & speaking invites", "Investor visibility"],
+                body: "Share your building journey, product learnings, and hard-won insights. When you show up consistently, your audience sees your thinking — and the best prospects, partners, and talent come to you.",
+                outcomes: ["Organic DMs from prospects", "Speaking & media invites", "Investor and talent visibility"],
               },
               {
                 icon: "🎯", title: "CXOs & Revenue Leaders",
-                body: "CROs, VP Sales, CMOs — your presence on LinkedIn signals authority to your entire market. Opuz AI keeps you visible even when you're heads-down in a quarter.",
-                outcomes: ["Brand credibility", "Warm pipeline influence", "Analyst & peer recognition"],
+                body: "Your perspective carries weight. Opuz AI helps CROs, VP Sales, and CMOs publish ideas and industry takes consistently — building the credibility that makes every sales conversation easier.",
+                outcomes: ["Recognized as a thought leader", "Prospects who already trust you", "Peer and analyst recognition"],
               },
               {
-                icon: "⚡", title: "GTM & Sales Teams",
-                body: "AEs and SDRs with a LinkedIn presence get 18% better response rates on cold outreach. Opuz AI gives your entire team a content system that takes 15 minutes a week.",
-                outcomes: ["Higher reply rates", "Shorter deal cycles", "Warm inbounds from content"],
+                icon: "⚡", title: "GTM Leaders & Members",
+                body: "The best GTM teams win because people know and trust them before the first conversation. Opuz AI gives every member of your team a content habit — sharing insights, product stories, and customer learnings in their own voice.",
+                outcomes: ["Stand out in a crowded market", "Warm inbounds from content", "Stronger personal credibility"],
               },
               {
-                icon: "📈", title: "Growth & Marketing",
-                body: "Organic content is your highest-ROI channel when done consistently. Opuz AI is the infrastructure that makes consistency possible at team scale.",
-                outcomes: ["Audience growth", "Content-led SEO signals", "Reduced agency dependency"],
+                icon: "📈", title: "Individual Contributors",
+                body: "SDRs, AEs, CSMs — your personal brand is your career. Posting your perspective on your industry and sharing what you learn makes you visible to the right people, inside and outside your company.",
+                outcomes: ["Build audience & followers", "Inbound career opportunities", "Prospects who already know you"],
               },
             ].map((c) => (
               <div key={c.title} style={{ background: BG, borderRadius: 16, border: `1px solid ${BORDER}`, padding: "28px 24px", display: "flex", flexDirection: "column" }}>
@@ -209,12 +209,12 @@ export default function Home() {
               </div>
               <div style={{ padding: "20px" }}>
                 {[
-                  { icon: "⏱", text: "3–4 hours to write one post (if it even gets done)" },
+                  { icon: "⏱", text: "You have ideas and insights but no time to write them up" },
                   { icon: "😩", text: "Blank-page paralysis — you know what you want to say but can't start" },
-                  { icon: "📅", text: "Inconsistent posting — once a month, maybe" },
-                  { icon: "🎭", text: "Posts sound like they were written by someone else (or ChatGPT)" },
-                  { icon: "📉", text: "LinkedIn profile shows no activity — buyers wonder if you're even active" },
-                  { icon: "🔇", text: "X account completely dark" },
+                  { icon: "📅", text: "Inconsistent — you post once in a while, then go dark for weeks" },
+                  { icon: "🎭", text: "When you do post, it doesn't sound like you" },
+                  { icon: "📉", text: "Your LinkedIn and X profiles don't reflect the expert you actually are" },
+                  { icon: "🔇", text: "The people who should know you don't — because they haven't seen your content" },
                 ].map((item) => (
                   <div key={item.text} style={{ display: "flex", gap: 12, padding: "10px 0", borderBottom: `1px solid ${BORDER}`, alignItems: "flex-start" }}>
                     <span style={{ fontSize: 18, flexShrink: 0 }}>{item.icon}</span>
@@ -238,12 +238,12 @@ export default function Home() {
               </div>
               <div style={{ padding: "20px" }}>
                 {[
-                  { icon: "⚡", text: "3 minutes — idea to published post, done" },
-                  { icon: "✦", text: "AI generates from a rough thought or bullet points you jot down" },
-                  { icon: "📆", text: "4–5 posts a week, every week, without thinking about it" },
+                  { icon: "⚡", text: "3 minutes — your journey, insight, or idea becomes a polished post" },
                   { icon: "🎙", text: "Sounds exactly like you — your words, your perspective, your style" },
-                  { icon: "📈", text: "Active, credible profile that buyers trust before the first call" },
-                  { icon: "𝕏", text: "X threads auto-generated from the same content input" },
+                  { icon: "📆", text: "4–5 posts a week, every week — your voice is always present" },
+                  { icon: "🌱", text: "Audience and followers grow because they genuinely value what you share" },
+                  { icon: "📈", text: "You become a recognised thought leader — prospects come to you" },
+                  { icon: "𝕏", text: "LinkedIn and X covered from one input — your reach doubles" },
                 ].map((item) => (
                   <div key={item.text} style={{ display: "flex", gap: 12, padding: "10px 0", borderBottom: `1px solid ${BORDER}`, alignItems: "flex-start" }}>
                     <span style={{ fontSize: 18, flexShrink: 0 }}>{item.icon}</span>
@@ -377,16 +377,16 @@ export default function Home() {
       <section style={{ padding: "80px clamp(20px,5vw,60px)", background: "#fff" }}>
         <div style={{ maxWidth: 1000, margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: 56 }}>
-            <h2 style={{ fontSize: "clamp(28px,4vw,44px)", fontWeight: 800, marginBottom: 16 }}>What users are seeing in 90 days</h2>
-            <p style={{ color: BODY, fontSize: 17 }}>Real outcomes from consistent content with Opuz AI.</p>
+            <h2 style={{ fontSize: "clamp(28px,4vw,44px)", fontWeight: 800, marginBottom: 16 }}>What consistent content does in 90 days</h2>
+            <p style={{ color: BODY, fontSize: 17 }}>When you show up every week, the compounding effect is real.</p>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: 16, marginBottom: 40 }}>
             {[
               { metric: "10×", label: "LinkedIn profile views", sub: "Week 4 vs Week 1" },
-              { metric: "3–8", label: "warm DMs / month", sub: "from content alone" },
-              { metric: "18%", label: "comment response rate", sub: "vs 3% cold outreach" },
-              { metric: "85%", label: "time saved on content", sub: "vs writing manually" },
+              { metric: "3–8", label: "organic DMs / month", sub: "from prospects who found you" },
               { metric: "4–5×", label: "posting frequency", sub: "vs before Opuz AI" },
+              { metric: "85%", label: "time saved on content", sub: "vs writing manually" },
+              { metric: "↑↑", label: "credibility compounds", sub: "every post builds on the last" },
             ].map((r) => (
               <div key={r.label} style={{ background: LIGHT_BLUE, borderRadius: 14, border: `1px solid ${B}25`, padding: "24px 18px", textAlign: "center" }}>
                 <div style={{ fontSize: 34, fontWeight: 900, color: B }}>{r.metric}</div>
@@ -397,9 +397,9 @@ export default function Home() {
           </div>
           <div style={{ background: DARK, borderRadius: 20, padding: "36px 44px", display: "flex", gap: 28, alignItems: "center", flexWrap: "wrap" }}>
             <div style={{ flex: 1, minWidth: 220 }}>
-              <div style={{ fontWeight: 800, fontSize: 20, color: "#fff", marginBottom: 10 }}>One deal closes. Tool pays for 3 years.</div>
+              <div style={{ fontWeight: 800, fontSize: 20, color: "#fff", marginBottom: 10 }}>Credibility is the highest-ROI asset you can build.</div>
               <p style={{ color: "#94A3B8", fontSize: 15, lineHeight: 1.75, margin: 0 }}>
-                If one extra meeting books from a LinkedIn comment, and that deal closes at ₹3L+ ACV, Opuz AI has paid for itself 5–10× over. Most teams see this in the first 60 days.
+                A prospect who has read your posts for 3 months, engaged with your ideas, and followed your journey already trusts you before you&apos;ve ever spoken. That&apos;s what Opuz AI helps you build — one post at a time, consistently, in your own voice.
               </p>
             </div>
             <a href="#contact" style={{ padding: "14px 28px", borderRadius: 10, background: B, color: "#fff", fontSize: 15, fontWeight: 700, textDecoration: "none", whiteSpace: "nowrap", boxShadow: `0 4px 20px ${B}40` }}>
