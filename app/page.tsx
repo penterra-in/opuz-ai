@@ -18,11 +18,6 @@ export default function Home() {
           <span style={{ fontWeight: 800, fontSize: 18, letterSpacing: -0.5 }}>Opuz <span style={{ color: B }}>AI</span></span>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 28 }}>
-          {["#who", "#how", "#pricing"].map((href, i) => (
-            <a key={href} href={href} style={{ fontSize: 14, color: BODY, textDecoration: "none", display: i === 2 ? undefined : "none" }}>
-              {["Who it's for", "How it works", "Pricing"][i]}
-            </a>
-          ))}
           <a href="#who" style={{ fontSize: 14, color: BODY, textDecoration: "none" }}>Who it&apos;s for</a>
           <a href="#how" style={{ fontSize: 14, color: BODY, textDecoration: "none" }}>How it works</a>
           <a href="#pricing" style={{ fontSize: 14, color: BODY, textDecoration: "none" }}>Pricing</a>
