@@ -1,3 +1,5 @@
+import ContactForm from "./ContactForm";
+
 const B = "#1E9DD9";
 const DARK = "#263547";
 const BODY = "#64748B";
@@ -513,40 +515,7 @@ export default function Home() {
         <p style={{ color: BODY, fontSize: 17, marginBottom: 44, lineHeight: 1.7 }}>
           We&apos;re onboarding 20 users in May 2026. Founding members get locked-in pricing forever and direct access to David for strategy.
         </p>
-        <div style={{ background: BG, borderRadius: 20, border: `1px solid ${BORDER}`, padding: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: 18, textAlign: "left" }}>
-            {[
-              { label: "Your name", placeholder: "Rahul Sharma", type: "text" },
-              { label: "Company / role", placeholder: "Founder at Acme SaaS / VP Sales at...", type: "text" },
-              { label: "LinkedIn profile URL", placeholder: "linkedin.com/in/yourprofile", type: "url" },
-              { label: "Work email", placeholder: "you@company.com", type: "email" },
-            ].map((f) => (
-              <div key={f.label}>
-                <label style={{ fontSize: 13, fontWeight: 600, color: DARK, display: "block", marginBottom: 7 }}>{f.label}</label>
-                <input
-                  type={f.type}
-                  placeholder={f.placeholder}
-                  style={{ width: "100%", padding: "12px 16px", borderRadius: 9, border: `1px solid ${BORDER}`, fontSize: 14, outline: "none", boxSizing: "border-box", fontFamily: "inherit", background: "#fff" }}
-                />
-              </div>
-            ))}
-            <div>
-              <label style={{ fontSize: 13, fontWeight: 600, color: DARK, display: "block", marginBottom: 7 }}>Which plan? <span style={{ color: BODY, fontWeight: 400 }}>(optional)</span></label>
-              <div style={{ display: "flex", gap: 10 }}>
-                {["Individual", "Team"].map((p) => (
-                  <label key={p} style={{ flex: 1, display: "flex", alignItems: "center", gap: 8, background: "#fff", border: `1px solid ${BORDER}`, borderRadius: 9, padding: "11px 16px", cursor: "pointer" }}>
-                    <input type="radio" name="plan" value={p} style={{ accentColor: B }} />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>{p}</span>
-                  </label>
-                ))}
-              </div>
-            </div>
-            <button style={{ width: "100%", padding: "15px", borderRadius: 10, background: B, color: "#fff", fontSize: 16, fontWeight: 700, border: "none", cursor: "pointer", marginTop: 4, boxShadow: `0 4px 20px ${B}40` }}>
-              Request early access
-            </button>
-            <p style={{ textAlign: "center", fontSize: 12, color: "#94A3B8", margin: 0 }}>David will personally reach out within 24 hours.</p>
-          </div>
-        </div>
+        <ContactForm />
       </section>
 
       {/* ── Footer ── */}
